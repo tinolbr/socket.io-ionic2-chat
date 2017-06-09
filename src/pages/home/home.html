@@ -1,0 +1,14 @@
+<ion-content class="light" padding>
+  
+<ion-list>
+   <ion-item class="light">
+    <ion-input type="text" class="white" [(ngModel)]="nickname" (keyup.enter)="login()" placeholder="What is your nickname?"></ion-input>
+  </ion-item>
+  
+  <ion-item class="light">
+    <button ion-button block (click)="login()" class="button button-block button-grey">Join</button>
+  </ion-item>
+
+</ion-list> 
+
+</ion-content>
